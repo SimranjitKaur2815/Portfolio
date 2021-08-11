@@ -1,0 +1,40 @@
+.aboutContainer{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+.eduTitle{
+  font-weight: bold;
+  margin-top: 22px;
+}
+
+.interests {
+  background-color: gainsboro;
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.skills {
+  background-color: gainsboro;
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h2 {
+  padding: 10px;
+}
+p{
+text-align: start;
+margin-left: 12px;
+font-size: 20px;
+}
+hr{
+  margin-right: 60px;
+}
+ul{
+  margin:12px
+}
+.aboutTitle {
+  margin-top: 32px;
+}

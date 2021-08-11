@@ -1,0 +1,75 @@
+.title {
+  flex: 1;
+  text-align: center;
+  margin: 32px;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.projectImage {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.projectCard {
+  position: relative;
+  border-radius: 6px;
+  height: 250px;
+  box-shadow: grey 0px 0px 2px;
+  width: 350px;
+  overflow: hidden;
+  transition: 0.7s;
+}
+.projectCard:hover {
+  box-shadow: darkgray 1px 1px 20px;
+  border-radius: 12px;
+  height: 450px;
+}
+.projectName {
+  font-size: 28px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 22;
+  margin-bottom: 12;
+  color: white;
+}
+.projectDescTitle {
+  font-size: 14px;
+  margin-top: 12px;
+  margin-bottom: 2px;
+}
+.projectDesc {
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 12px;
+}
+.langRow {
+  margin-bottom: 18px;
+  margin-left: 8px;
+  display: flex;
+  flex-direction: row;
+}
+.langUsed {
+  border-radius: 4px;
+  border-color: darkgray;
+  border-width: 1px;
+  border-style: solid;
+  height: 35px;
+  width: 35px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+.lang {
+  height: 25px;
+  width: 25px;
+}

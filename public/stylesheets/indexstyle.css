@@ -1,0 +1,33 @@
+.circularImage {
+  border-radius: 50%;
+}
+.wrapper {
+  /*Wrapper holds design within certain boundaries*/
+  /*Common Wrapper*/
+  margin-top: 120px;
+   /* used to define a flex container*/
+  background-color: gainsboro;
+  padding: 0px;
+  box-shadow: gray;
+}
+h3 {
+  color: crimson;
+  text-align: center;
+}
+.containerImage {
+  border-color: black;
+  width: 10px;
+}
+.infoContainer {
+  padding: 50px;
+}
+.imageContainer {
+  border-color: black;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+p {
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+.containercontact {
+  /*Wrapper holds design within certain boundaries*/
+  /*Common Wrapper*/
+  margin-top: 120px;
+  width: 600px;
+  display: flex; /* used to define a flex container*/
+  background-color: gainsboro;
+  padding: 30px;
+  box-shadow: gray;
+  justify-content: center;
+}
+
+.form-floating {
+  width: 550px;
+}
+.form-group {
+  width: 550px;
+}
